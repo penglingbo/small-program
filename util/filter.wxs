@@ -1,0 +1,12 @@
+module.exports = {
+    format: function (text) {
+        if (!text) {
+            return;
+        }
+        var reg = getRegExp('\\\\n', 'g');
+        return text.replace(reg, '\n　　');
+    },
+    limit: function (arr, len) {
+        return arr.slice(0, len);
+    }
+}

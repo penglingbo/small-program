@@ -1,0 +1,42 @@
+{
+    "pages": [
+        "pages/classic/classic",
+        "pages/book/book",        
+        "pages/my/my",        
+        "pages/book-detail/book-detail",
+        "pages/about/about"
+    ],
+    "window": {
+        "navigationBarBackgroundColor": "#FFF",
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "帝国主义",
+        "navigationStyle": "default",
+        "backgroundColor": "#ffffff",
+        "enablePullDownRefresh": true
+    },
+    "tabBar": {
+        "selectedColor": "#000",
+        "backgroundColor": "#fff",
+        "color": "#c7c7c7",
+        "list": [
+            {
+                "text": "流行",
+                "pagePath": "pages/classic/classic",
+                "iconPath": "images/tab/classic.png",
+                "selectedIconPath": "images/tab/classic@highlight.png"
+            },
+            {
+                "text": "书籍",
+                "pagePath": "pages/book/book",
+                "iconPath": "images/tab/book.png",
+                "selectedIconPath": "images/tab/book@highlight.png"
+            },
+            {
+                "text": "喜欢",
+                "pagePath": "pages/my/my",
+                "iconPath": "images/tab/my.png",
+                "selectedIconPath": "images/tab/my@highlight.png"
+            }
+        ]
+    }
+}
